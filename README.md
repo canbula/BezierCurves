@@ -5,7 +5,7 @@ Python code to generate 2d Bezier Curves.
 from BezierCurve import *
 
 ## Initialize
-bezier_curve = BezierCurve(100) # 100 steps between t=0 and t=100
+bezier_curve = BezierCurve(100) # 100 steps between t=0 and t=1
 
 bezier_curve.add_point(0, 0) # Add points
 
